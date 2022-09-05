@@ -5,7 +5,7 @@ to immediately abort the transition by calling `transition.abort()`,
 and if the transition object is stored, it can be re-attempted at a
 later time by calling `transition.retry()`.
 
-### Preventing Transitions via `willTransition`
+### Preventing Transitions via `willTrans
 
 When a transition is attempted, whether via `{{link-to}}`, `transitionTo`,
 or a URL change, a `willTransition` action is fired on the currently
